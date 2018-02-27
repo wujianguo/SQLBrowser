@@ -15,7 +15,7 @@ import Foundation
 //}
 
 
-class SQLiteDatabase {
+class SQLiteDatabase2 {
     
     enum ColumnType {
         case Null

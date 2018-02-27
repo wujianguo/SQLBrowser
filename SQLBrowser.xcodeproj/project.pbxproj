@@ -20,6 +20,7 @@
 		81A156E21F865FDA000C6C12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81A156E01F865FDA000C6C12 /* LaunchScreen.storyboard */; };
 		81A156ED1F865FDB000C6C12 /* SQLBrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A156EC1F865FDB000C6C12 /* SQLBrowserTests.swift */; };
 		81A156F81F865FDB000C6C12 /* SQLBrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A156F71F865FDB000C6C12 /* SQLBrowserUITests.swift */; };
+		81C520C02045982D004B2516 /* SQLiteBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C520BF2045982D004B2516 /* SQLiteBrowser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		81A156F31F865FDB000C6C12 /* SQLBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SQLBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81A156F71F865FDB000C6C12 /* SQLBrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLBrowserUITests.swift; sourceTree = "<group>"; };
 		81A156F91F865FDB000C6C12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81C520BF2045982D004B2516 /* SQLiteBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteBrowser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				8115DC79202EBFE500A84B63 /* TableDetailViewController.swift */,
 				8115DC7B202EC0CB00A84B63 /* RowBrowserTableViewController.swift */,
 				8115DC7D202EC0E800A84B63 /* SQLBrowser.swift */,
+				81C520BF2045982D004B2516 /* SQLiteBrowser.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 				8115DC7A202EBFE500A84B63 /* TableDetailViewController.swift in Sources */,
 				8115DC7C202EC0CB00A84B63 /* RowBrowserTableViewController.swift in Sources */,
 				8115DC76202EBFAD00A84B63 /* SearchTableViewController.swift in Sources */,
+				81C520C02045982D004B2516 /* SQLiteBrowser.swift in Sources */,
 				81A156D81F865FDA000C6C12 /* AppDelegate.swift in Sources */,
 				8115DC72202EBF7400A84B63 /* DatabasesTableViewController.swift in Sources */,
 				8115DC7E202EC0E800A84B63 /* SQLBrowser.swift in Sources */,
