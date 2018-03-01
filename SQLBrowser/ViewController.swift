@@ -12,7 +12,13 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .action, target: self, action: #selector(rightBarButtonItemClick(sender:)))
+    }
+    
+    @objc func rightBarButtonItemClick(sender: UIBarButtonItem) {
+        let vc = SQLiteTableViewController(path: "sqlite_name")
+        let nav = UINavigationController(rootViewController: vc)
+        present(nav, animated: true, completion: nil)
     }
 
     override func didReceiveMemoryWarning() {

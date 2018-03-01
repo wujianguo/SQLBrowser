@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8115DC72202EBF7400A84B63 /* DatabasesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8115DC71202EBF7400A84B63 /* DatabasesTableViewController.swift */; };
-		8115DC74202EBF9400A84B63 /* DatabaseDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8115DC73202EBF9400A84B63 /* DatabaseDetailTableViewController.swift */; };
-		8115DC76202EBFAD00A84B63 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8115DC75202EBFAD00A84B63 /* SearchTableViewController.swift */; };
-		8115DC7A202EBFE500A84B63 /* TableDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8115DC79202EBFE500A84B63 /* TableDetailViewController.swift */; };
-		8115DC7C202EC0CB00A84B63 /* RowBrowserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8115DC7B202EC0CB00A84B63 /* RowBrowserTableViewController.swift */; };
 		8115DC7E202EC0E800A84B63 /* SQLBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8115DC7D202EC0E800A84B63 /* SQLBrowser.swift */; };
 		81A156D81F865FDA000C6C12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A156D71F865FDA000C6C12 /* AppDelegate.swift */; };
 		81A156DA1F865FDA000C6C12 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81A156D91F865FDA000C6C12 /* ViewController.swift */; };
@@ -41,11 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8115DC71202EBF7400A84B63 /* DatabasesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabasesTableViewController.swift; sourceTree = "<group>"; };
-		8115DC73202EBF9400A84B63 /* DatabaseDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseDetailTableViewController.swift; sourceTree = "<group>"; };
-		8115DC75202EBFAD00A84B63 /* SearchTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
-		8115DC79202EBFE500A84B63 /* TableDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableDetailViewController.swift; sourceTree = "<group>"; };
-		8115DC7B202EC0CB00A84B63 /* RowBrowserTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowBrowserTableViewController.swift; sourceTree = "<group>"; };
 		8115DC7D202EC0E800A84B63 /* SQLBrowser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLBrowser.swift; sourceTree = "<group>"; };
 		81A156D41F865FDA000C6C12 /* SQLBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81A156D71F865FDA000C6C12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -91,11 +81,6 @@
 		8115DC6C202EBEDB00A84B63 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				8115DC71202EBF7400A84B63 /* DatabasesTableViewController.swift */,
-				8115DC73202EBF9400A84B63 /* DatabaseDetailTableViewController.swift */,
-				8115DC75202EBFAD00A84B63 /* SearchTableViewController.swift */,
-				8115DC79202EBFE500A84B63 /* TableDetailViewController.swift */,
-				8115DC7B202EC0CB00A84B63 /* RowBrowserTableViewController.swift */,
 				8115DC7D202EC0E800A84B63 /* SQLBrowser.swift */,
 				81C520BF2045982D004B2516 /* SQLiteBrowser.swift */,
 			);
@@ -297,13 +282,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				81A156DA1F865FDA000C6C12 /* ViewController.swift in Sources */,
-				8115DC74202EBF9400A84B63 /* DatabaseDetailTableViewController.swift in Sources */,
-				8115DC7A202EBFE500A84B63 /* TableDetailViewController.swift in Sources */,
-				8115DC7C202EC0CB00A84B63 /* RowBrowserTableViewController.swift in Sources */,
-				8115DC76202EBFAD00A84B63 /* SearchTableViewController.swift in Sources */,
 				81C520C02045982D004B2516 /* SQLiteBrowser.swift in Sources */,
 				81A156D81F865FDA000C6C12 /* AppDelegate.swift in Sources */,
-				8115DC72202EBF7400A84B63 /* DatabasesTableViewController.swift in Sources */,
 				8115DC7E202EC0E800A84B63 /* SQLBrowser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
