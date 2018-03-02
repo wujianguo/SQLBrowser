@@ -42,7 +42,8 @@ class TableBrowserViewController: UIViewController, UITableViewDelegate, UITable
         
         var columns: [String]! {
             didSet {
-                textLabel?.text = columns.joined(separator: ",")
+//                textLabel?.text = columns.joined(separator: ",")
+                setupUIIfNeed()
             }
         }
         
